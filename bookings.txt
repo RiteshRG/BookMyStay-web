@@ -1,0 +1,13 @@
+CREATE TABLE bookings (
+    id INT NOT NULL AUTO_INCREMENT,
+    first_name VARCHAR(45) NOT NULL,
+    lastname VARCHAR(45) NOT NULL,
+    phone_number VARCHAR(15),
+    email VARCHAR(60) NOT NULL,
+    room_type VARCHAR(30) NOT NULL,
+    room_count VARCHAR(2) NOT NULL,
+    arrival_date VARCHAR(25) NOT NULL,
+    departure_date VARCHAR(25) NOT NULL,
+    total_amount INT NOT NULL,
+    PRIMARY KEY (id)
+);
